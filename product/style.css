@@ -6,7 +6,8 @@
 
 .container{
     display: grid;
-    grid-template-columns: 50px 50px 50px ;
+    grid-template-columns: 50% 50%;
+  
 }
 .product {
     background: white; 
@@ -21,10 +22,13 @@
     height: 100px; }
 
     
-.cart { 
+.cartdiv { 
      margin-top: 20px;
      padding: 10px; 
      background: #fff3cd; 
      border: 1px solid #ffeeba; 
-     border-radius: 5px; } 
+     border-radius: 5px; 
+    } 
+
+
 
