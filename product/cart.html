@@ -7,25 +7,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-    <title>Fake Store</title>
+    <script src="cart.js" defer></script>
+    <title>Cart Page</title>
 </head>
-<body> 
+<body>
     <header>
         <h1>Fake Store</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li> 
-                <li><a href="compt.html">Compte</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Compte</a></li>
                 <li><a href="cart.html">Panier</a></li>
             </ul>
         </nav>
     </header>
-    
-    
-    
-    <div id="products" class="container"></div> <!-- for products-->
-    
+
+    <h1>Mon panier</h1>
+
+    <div id="cart-items" class="cart-container"></div> <!-- cart-items -->
+
+    <br>
+    <div class="cart_total">Total: €<span id="cart-total">0.00</span></div> <!-- total€ -->
+    <br>
+
+    <button id="valideBtn" type="submit">Acheter</button>
+
     <footer>
         <p>&copy; 2025 Fake Store</p>
     </footer>

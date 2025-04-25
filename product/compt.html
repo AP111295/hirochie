@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="compte.js" defer></script>
+    <title>Mon compte</title>
+</head>
+<body>
+    <header>
+        <h1>Fake Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="compt.html">Compte</a></li>
+                <li><a href="cart.html">Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Créer un compte</h1>
+
+    <main>
+
+        <div id="user" class="container">
+
+            <form method="post" action="">
+                <label for="prenom">Prénom</label> <input id="prenom" type="text" maxlength="100" placeholder="Prénom" required>
+                <br>
+                <label for="mail">E-mail</label> <input id="mail" type="text" maxlength="254" placeholder="aaaa@mail.com" required > 
+                <br>
+                <label for="mdp">Mot de pass</label> <input id="mdp" type="password" minlength="8" maxlength="20" required  placeholder="8 characters minimum"> 
+                <br>
+                <label for="cfmMdp">Confirmer mot de passe</label> <input id="cfmMdp" type="password" maxlength="20" placeholder="8 characters minimum"> 
+                <br>
+                <button type="submit">Inscription</button>
+            </form>
+        </div> 
+
+       
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fake Store</p>
+    </footer>
+    
+</body>
+</html>
